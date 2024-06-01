@@ -61,3 +61,4 @@ This are collection of websites that i visit often to stay updated.
 
 ### Misc
 1. [Archlinux](https://archlinux.org/)
+2. [Gentoo](https://www.gentoo.org/)
