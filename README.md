@@ -1,6 +1,6 @@
-# Quick Links
-This are collection of websites that i visit often to stay updated.
-
+# Infosec digest
+Collection of various online sources i often visit for updates.
+ 
 ## Social media
 1. [Telegram](https://web.telegram.org/k)
 2. [Whatsapp](https://web.whatsapp.com)
