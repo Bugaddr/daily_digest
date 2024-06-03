@@ -36,6 +36,7 @@ This are collection of websites that i visit often to stay updated.
 7. [Torrentfreak](https://torrentfreak.com/)
 8. [Hacker News](https://news.ycombinator.com/)
 9. [The Register](https://www.theregister.com/)
+10. [Hackernoon](https://hackernoon.com/)
 
 ### Hardware
 1. [Notebookcheck](https://www.notebookcheck.net/)
