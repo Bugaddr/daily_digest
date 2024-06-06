@@ -21,6 +21,7 @@ Collection of various online sources i often visit for updates.
 2. [Bleeping Computer](https://www.bleepingcomputer.com/)
 3. [The Hacker News](https://thehackernews.com/)
 4. [Dark Reading](https://www.darkreading.com/)
+5. [Sophos News](https://news.sophos.com/en-us/)
 
 ### Writeups
 1. [Hackerone Hactivity](https://hackerone.com/hacktivity/)
