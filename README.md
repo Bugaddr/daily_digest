@@ -64,3 +64,4 @@ Collection of various online sources i often visit for updates.
 ### Misc
 1. [Archlinux](https://archlinux.org/)
 2. [Gentoo](https://www.gentoo.org/)
+3. [Phorinix](https://www.phoronix.com/)
