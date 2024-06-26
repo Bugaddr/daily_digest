@@ -65,3 +65,5 @@ Collection of various online sources i often visit for updates.
 1. [Archlinux](https://archlinux.org/)
 2. [Gentoo](https://www.gentoo.org/)
 3. [Phoronix](https://www.phoronix.com/)
+4. [Github trending repos](https://github.com/trending)
+5. [Producthunt](https://www.producthunt.com/)
