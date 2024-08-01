@@ -67,3 +67,10 @@ Collection of various online sources i often visit for updates.
 3. [Phoronix](https://www.phoronix.com/)
 4. [Github trending repos](https://github.com/trending)
 5. [Producthunt](https://www.producthunt.com/)
+6. [Maurycy's blog](https://10maurycy10.github.io/)
+
+### Blogs
+
+1. [Officer's blog](https://officercia.mirror.xyz/)
+2. [Google project zero blog](https://googleprojectzero.blogspot.com/)
+3. [Kerbs on security](https://krebsonsecurity.com/)
