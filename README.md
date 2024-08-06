@@ -74,6 +74,7 @@ Collection of various online sources i often visit for updates.
 1. [Officer's blog](https://officercia.mirror.xyz/)
 2. [Google project zero blog](https://googleprojectzero.blogspot.com/)
 3. [Kerbs on security](https://krebsonsecurity.com/)
+4. [Google bughunters blog](https://bughunters.google.com/blog)
 
 ### Guides
 
