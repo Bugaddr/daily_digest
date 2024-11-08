@@ -53,6 +53,7 @@ Collection of various online sources i often visit for updates.
 1. [Phys](https://phys.org/)
 2. [Medical Xpress](https://medicalxpress.com/)
 3. [New Scientist](https://www.newscientist.com/)
+4. [Science alert](https://www.sciencealert.com/)
 
 ### Electronics/DIY/CAD
 1. [Hackaday.io](https://hackaday.io/discover)
