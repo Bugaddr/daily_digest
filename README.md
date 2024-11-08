@@ -38,6 +38,7 @@ Collection of various online sources i often visit for updates.
 8. [Hacker News](https://news.ycombinator.com/)
 9. [The Register](https://www.theregister.com/)
 10. [Hackernoon](https://hackernoon.com/)
+11. [Freethink](https://www.freethink.com/)
 
 ### Hardware
 1. [Notebookcheck](https://www.notebookcheck.net/)
