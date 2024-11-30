@@ -1,4 +1,4 @@
-# Infosec digest
+# Daily digest
 Collection of various online sources i often visit for updates.
  
 ## Social media
