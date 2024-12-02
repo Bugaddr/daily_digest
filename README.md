@@ -1,84 +1,93 @@
-# Daily digest
-Collection of various online sources i often visit for updates.
- 
-## Social media
-1. [Telegram](https://web.telegram.org/k)
-2. [Whatsapp](https://web.whatsapp.com)
-3. [Discord](https://discord.com/app)
-4. [Twitter](https://twitter.com)
-5. [Mastodon](https://infosec.exchange)
-6. [Linkedin](https://www.linkedin.com)
-7. [Reddit](https://www.reddit.com)
-8. [Instagram](https://www.instagram.com/)
+# **Daily Digest**
+A collection of various online sources frequently visited for updates.
 
-## News
+---
 
-### Curated Feeds
-1. [Feedly](https://feedly.com)
+## **Social Media**
+- [Telegram](https://web.telegram.org/k)  
+- [WhatsApp](https://web.whatsapp.com)  
+- [Discord](https://discord.com/app)  
+- [Twitter](https://twitter.com)  
+- [Mastodon](https://infosec.exchange)  
+- [LinkedIn](https://www.linkedin.com)  
+- [Reddit](https://www.reddit.com)  
+- [Instagram](https://www.instagram.com/)
 
-### Cyber
-1. [Security Week](https://www.securityweek.com/)
-2. [Bleeping Computer](https://www.bleepingcomputer.com/)
-3. [The Hacker News](https://thehackernews.com/)
-4. [Dark Reading](https://www.darkreading.com/)
-5. [Sophos News](https://news.sophos.com/en-us/)
+---
 
-### Writeups
-1. [Hackerone Hactivity](https://hackerone.com/hacktivity/)
-2. [CTF Time Writeups](https://ctftime.org/writeups)
+## **News**
 
-### Tech
-1. [The Verge](https://www.theverge.com/)
-2. [Techcrunch](https://techcrunch.com/)
-3. [MIT Tech Review](https://www.technologyreview.com/)
-4. [IEEE Spectrum](https://spectrum.ieee.org/)
-5. [TechXplore](https://techxplore.com/)
-6. [LWN](https://lwn.net/)
-7. [Torrentfreak](https://torrentfreak.com/)
-8. [Hacker News](https://news.ycombinator.com/)
-9. [The Register](https://www.theregister.com/)
-10. [Hackernoon](https://hackernoon.com/)
-11. [Freethink](https://www.freethink.com/)
+### **Curated Feeds**
+- [Feedly](https://feedly.com)
 
-### Hardware
-1. [Notebookcheck](https://www.notebookcheck.net/)
-2. [Anand Tech](https://www.anandtech.com/)
+### **Cybersecurity**
+- [Security Week](https://www.securityweek.com/)  
+- [Bleeping Computer](https://www.bleepingcomputer.com/)  
+- [The Hacker News](https://thehackernews.com/)  
+- [Dark Reading](https://www.darkreading.com/)  
+- [Sophos News](https://news.sophos.com/en-us/)
 
-### National/International
-1. [Reuters](https://www.reuters.com/)
-2. [Google News](https://news.google.com)
-3. [Vice](https://www.vice.com/)
+### **Writeups**
+- [HackerOne Hactivity](https://hackerone.com/hacktivity/)  
+- [CTF Time Writeups](https://ctftime.org/writeups)
 
-### Science
-1. [Phys](https://phys.org/)
-2. [Medical Xpress](https://medicalxpress.com/)
-3. [New Scientist](https://www.newscientist.com/)
-4. [Science alert](https://www.sciencealert.com/)
+### **Technology**
+- [The Verge](https://www.theverge.com/)  
+- [TechCrunch](https://techcrunch.com/)  
+- [MIT Tech Review](https://www.technologyreview.com/)  
+- [IEEE Spectrum](https://spectrum.ieee.org/)  
+- [TechXplore](https://techxplore.com/)  
+- [LWN](https://lwn.net/)  
+- [TorrentFreak](https://torrentfreak.com/)  
+- [Hacker News](https://news.ycombinator.com/)  
+- [The Register](https://www.theregister.com/)  
+- [Hackernoon](https://hackernoon.com/)  
+- [Freethink](https://www.freethink.com/)
 
-### Electronics/DIY/CAD
-1. [Hackaday.io](https://hackaday.io/discover)
-2. [Hackaday.com](https://hackaday.com/)
-3. [Instructables](https://www.instructables.com/projects)
-4. [Hackster](https://www.hackster.io/)
-5. [Printables](https://www.printables.com/)
-6. [Thingyverse](https://www.thingiverse.com/)
+### **Hardware**
+- [Notebookcheck](https://www.notebookcheck.net/)  
+- [AnandTech](https://www.anandtech.com/)
 
-### Misc
-1. [Archlinux](https://archlinux.org/)
-2. [Gentoo](https://www.gentoo.org/)
-3. [Phoronix](https://www.phoronix.com/)
-4. [Github trending repos](https://github.com/trending)
-5. [Producthunt](https://www.producthunt.com/)
-6. [Maurycy's blog](https://10maurycy10.github.io/)
+### **National/International News**
+- [Reuters](https://www.reuters.com/)  
+- [Google News](https://news.google.com)  
+- [Vice](https://www.vice.com/)
 
-### Blogs
+### **Science**
+- [Phys.org](https://phys.org/)  
+- [Medical Xpress](https://medicalxpress.com/)  
+- [New Scientist](https://www.newscientist.com/)  
+- [ScienceAlert](https://www.sciencealert.com/)
 
-1. [Officer's blog](https://officercia.mirror.xyz/)
-2. [Google project zero blog](https://googleprojectzero.blogspot.com/)
-3. [Kerbs on security](https://krebsonsecurity.com/)
-4. [Google bughunters blog](https://bughunters.google.com/blog)
+### **Electronics/DIY/CAD**
+- [Hackaday.io](https://hackaday.io/discover)  
+- [Hackaday.com](https://hackaday.com/)  
+- [Instructables](https://www.instructables.com/projects)  
+- [Hackster](https://www.hackster.io/)  
+- [Printables](https://www.printables.com/)  
+- [Thingiverse](https://www.thingiverse.com/)
 
-### Guides
+---
 
-1. [Madaidans insecurities](https://madaidans-insecurities.github.io/)
-2. [The Hitchickers Guide To Online Anonymity](https://anonymousplanet.org/)
+## **Miscellaneous**
+- [Arch Linux](https://archlinux.org/)  
+- [Gentoo](https://www.gentoo.org/)  
+- [Phoronix](https://www.phoronix.com/)  
+- [GitHub Trending Repos](https://github.com/trending)  
+- [Product Hunt](https://www.producthunt.com/)  
+- [Maurycy's Blog](https://10maurycy10.github.io/)  
+- [Google Trends](https://trends.google.com/trending)
+
+---
+
+## **Blogs**
+- [Officer's Blog](https://officercia.mirror.xyz/)  
+- [Google Project Zero Blog](https://googleprojectzero.blogspot.com/)  
+- [Krebs on Security](https://krebsonsecurity.com/)  
+- [Google Bughunters Blog](https://bughunters.google.com/blog)
+
+---
+
+## **Guides**
+- [Madaidan's Insecurities](https://madaidans-insecurities.github.io/)  
+- [The Hitchhiker's Guide to Online Anonymity](https://anonymousplanet.org/)
