@@ -58,15 +58,13 @@
         }
 
         summary::before {
-            content: '\25B6';
-            /* Right arrow */
+            content: '\25B6'; /* Right arrow */
             margin-right: 10px;
             transition: transform 0.2s ease;
         }
 
         details[open] summary::before {
-            content: '\25BC';
-            /* Down arrow */
+            content: '\25BC'; /* Down arrow */
         }
 
         ul {
@@ -101,6 +99,7 @@
         <h2>Daily Digest</h2>
         <p>A collection of various online sources frequently visited for updates.</p>
 
+        <!-- Social Media -->
         <details open>
             <summary>
                 Social Media
@@ -119,10 +118,11 @@
             </ul>
         </details>
 
+        <!-- News -->
         <details>
             <summary>
                 News
-                <button class="dropdown" onclick="openAllLinks('news')">Open All</button>
+                <button onclick="openAllLinks('news', event)">Open All</button>
             </summary>
             <ul id="news">
                 <li><strong>Curated Feeds:</strong> <a href="https://feedly.com" target="_blank">Feedly</a></li>
@@ -137,31 +137,35 @@
             </ul>
         </details>
 
+        <!-- Hardware -->
         <details>
             <summary>
                 Hardware
-                <button class="dropdown" onclick="openAllLinks('hardware')">Open All</button>
+                <button onclick="openAllLinks('hardware', event)">Open All</button>
             </summary>
             <ul id="hardware">
                 <li><a href="https://www.notebookcheck.net/" target="_blank">Notebookcheck</a></li>
                 <li><a href="https://www.anandtech.com/" target="_blank">AnandTech</a></li>
             </ul>
         </details>
+
+        <!-- Guides -->
         <details>
             <summary>
                 Guides
-                <button class="dropdown" onclick="openAllLinks('guides')">Open All</button>
+                <button onclick="openAllLinks('guides', event)">Open All</button>
             </summary>
             <ul id="guides">
                 <li><a href="https://madaidans-insecurities.github.io/" target="_blank">Madaidan's Insecurities</a></li>
-                <li><a href="https://anonymousplanet.org/" target="_blank">The Hitchhiker's Guide to Online
-                        Anonymity</a></li>
+                <li><a href="https://anonymousplanet.org/" target="_blank">The Hitchhiker's Guide to Online Anonymity</a></li>
             </ul>
         </details>
+
+        <!-- Blogs -->
         <details>
             <summary>
                 Blogs
-                <button class="dropdown" onclick="openAllLinks('blogs')">Open All</button>
+                <button onclick="openAllLinks('blogs', event)">Open All</button>
             </summary>
             <ul id="blogs">
                 <li><a href="https://officercia.mirror.xyz/" target="_blank">Officer's Blog</a></li>
@@ -170,10 +174,12 @@
                 <li><a href="https://bughunters.google.com/blog" target="_blank">Google Bughunters Blog</a></li>
             </ul>
         </details>
+
+        <!-- Electronics/DIY/CAD -->
         <details>
             <summary>
                 Electronics/DIY/CAD
-                <button class="dropdown" onclick="openAllLinks('electronics-diy-cad')">Open All</button>
+                <button onclick="openAllLinks('electronics-diy-cad', event)">Open All</button>
             </summary>
             <ul id="electronics-diy-cad">
                 <li><a href="https://hackaday.io/discover" target="_blank">Hackaday.io</a></li>
@@ -184,10 +190,12 @@
                 <li><a href="https://www.thingiverse.com/" target="_blank">Thingiverse</a></li>
             </ul>
         </details>
+
+        <!-- Science -->
         <details>
             <summary>
                 Science
-                <button class="dropdown" onclick="openAllLinks('science')">Open All</button>
+                <button onclick="openAllLinks('science', event)">Open All</button>
             </summary>
             <ul id="science">
                 <li><a href="https://phys.org/" target="_blank">Phys.org</a></li>
@@ -196,10 +204,12 @@
                 <li><a href="https://www.sciencealert.com/" target="_blank">ScienceAlert</a></li>
             </ul>
         </details>
+
+        <!-- National/International News -->
         <details>
             <summary>
                 National/International News
-                <button class="dropdown" onclick="openAllLinks('national-news')">Open All</button>
+                <button onclick="openAllLinks('national-news', event)">Open All</button>
             </summary>
             <ul id="national-news">
                 <li><a href="https://www.reuters.com/" target="_blank">Reuters</a></li>
@@ -207,21 +217,12 @@
                 <li><a href="https://www.vice.com/" target="_blank">Vice</a></li>
             </ul>
         </details>
-        <details>
-            <summary>
-                Hardware
-                <button class="dropdown" onclick="openAllLinks('hardware')">Open All</button>
-            </summary>
-            <ul id="hardware">
-                <li><a href="https://www.notebookcheck.net/" target="_blank">Notebookcheck</a></li>
-                <li><a href="https://www.anandtech.com/" target="_blank">AnandTech</a></li>
-            </ul>
-        </details>
 
+        <!-- Technology -->
         <details>
             <summary>
                 Technology
-                <button class="dropdown" onclick="openAllLinks('technology')">Open All</button>
+                <button onclick="openAllLinks('technology', event)">Open All</button>
             </summary>
             <ul id="technology">
                 <li><a href="https://www.theverge.com/" target="_blank">The Verge</a></li>
@@ -238,10 +239,11 @@
             </ul>
         </details>
 
+        <!-- Miscellaneous -->
         <details>
             <summary>
                 Miscellaneous
-                <button class="dropdown" onclick="openAllLinks('miscellaneous')">Open All</button>
+                <button onclick="openAllLinks('miscellaneous', event)">Open All</button>
             </summary>
             <ul id="miscellaneous">
                 <li><a href="https://archlinux.org/" target="_blank">Arch Linux</a></li>
