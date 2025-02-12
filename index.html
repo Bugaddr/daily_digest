@@ -5,93 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daily Digest</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f4f4f4;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: auto;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        h2,
-        h3 {
-            color: #333;
-        }
-
-        details {
-            margin-bottom: 10px;
-        }
-
-        summary {
-            font-size: 18px;
-            font-weight: bold;
-            cursor: pointer;
-            padding: 10px;
-            background: #ddd;
-            border-radius: 5px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        summary button {
-            margin-left: 10px;
-            font-size: 14px;
-            padding: 3px 8px;
-            background-color: #0073e6;
-            color: white;
-            border: none;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-
-        summary button:hover {
-            background-color: #005bb5;
-        }
-
-        summary::before {
-            content: '\25B6'; /* Right arrow */
-            margin-right: 10px;
-            transition: transform 0.2s ease;
-        }
-
-        details[open] summary::before {
-            content: '\25BC'; /* Down arrow */
-        }
-
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        li {
-            padding: 5px 0;
-        }
-
-        a {
-            text-decoration: none;
-            color: #0073e6;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
-    <script>
-        function openAllLinks(categoryId, event) {
-            event.stopPropagation(); // Prevent details toggle when clicking the button
-            let links = document.querySelectorAll(`#${categoryId} a`);
-            links.forEach(link => window.open(link.href, '_blank'));
-        }
-    </script>
+    <link rel="stylesheet" href="./styles.css"/>
 </head>
 
 <body>
@@ -254,6 +168,7 @@
             </ul>
         </details>
     </div>
+    <script src="./scripts.js"></script>
 </body>
 
 </html>
