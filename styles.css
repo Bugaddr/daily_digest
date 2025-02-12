@@ -76,3 +76,14 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+#btn{
+    padding: 10px;
+    box-shadow: 4px 4px 2px black;
+}
+
+#btn:hover{
+    background-color: #80b3ff;
+    transition: 0.8s;
+    box-shadow: none;
+}
