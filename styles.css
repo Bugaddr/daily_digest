@@ -91,3 +91,8 @@ a:hover {
     transition: 0.8s;
     box-shadow: none;
 }
+
+.social-links{
+    text-align: center;
+    margin-right: 52px;
+}
