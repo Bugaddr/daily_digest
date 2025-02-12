@@ -24,6 +24,11 @@ details {
 
 #heading{
     text-align: center;
+    font-size: 21px;
+    background: linear-gradient(#0066ff, #cc66ff);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 summary {
@@ -42,7 +47,7 @@ summary button {
     margin-left: 10px;
     font-size: 14px;
     padding: 3px 8px;
-    background-color: #0073e6;
+    background-color: #0066ff;
     color: white;
     border: none;
     cursor: pointer;
