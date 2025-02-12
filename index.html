@@ -34,12 +34,27 @@
             font-size: 18px;
             font-weight: bold;
             cursor: pointer;
-            padding: 5px;
+            padding: 10px;
             background: #ddd;
             border-radius: 5px;
             display: flex;
             justify-content: space-between;
             align-items: center;
+        }
+
+        summary button {
+            margin-left: 10px;
+            font-size: 14px;
+            padding: 3px 8px;
+            background-color: #0073e6;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        summary button:hover {
+            background-color: #005bb5;
         }
 
         summary::before {
@@ -71,22 +86,10 @@
         a:hover {
             text-decoration: underline;
         }
-
-        .dropdown {
-            background-color: #0073e6;
-            color: white;
-            border: none;
-            cursor: pointer;
-            border-radius: 5px;
-            padding: 5px 10px;
-        }
-
-        .dropdown:hover {
-            background-color: #005bb5;
-        }
     </style>
     <script>
-        function openAllLinks(categoryId) {
+        function openAllLinks(categoryId, event) {
+            event.stopPropagation(); // Prevent details toggle when clicking the button
             let links = document.querySelectorAll(`#${categoryId} a`);
             links.forEach(link => window.open(link.href, '_blank'));
         }
@@ -98,10 +101,10 @@
         <h2>Daily Digest</h2>
         <p>A collection of various online sources frequently visited for updates.</p>
 
-        <details>
+        <details open>
             <summary>
-                Social Media 
-                <button class="dropdown" onclick="openAllLinks('social-media')">Open All</button>
+                Social Media
+                <button onclick="openAllLinks('social-media', event)">Open All</button>
             </summary>
             <ul id="social-media">
                 <li><a href="https://web.whatsapp.com" target="_blank">WhatsApp</a></li>
