@@ -10,11 +10,12 @@ A collection of various online sources frequently visited for updates.
 - [Telegram](https://web.telegram.org/k)
 - [LinkedIn](https://www.linkedin.com)
 - [Reddit](https://www.reddit.com)
-- [Instagram](https://www.instagram.com/)
-- [Snapchat](https://web.snapchat.com/)
+- [Instagram](https://www.instagram.com)
+- [Snapchat](https://web.snapchat.com)
 - [Twitter](https://twitter.com)
 - [Discord](https://discord.com/app)
 - [Mastodon](https://infosec.exchange)
+- [Pinterest](https://in.pinterest.com)
 
 ---
 
