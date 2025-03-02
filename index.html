@@ -2,164 +2,280 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daily Digest</title>
-    <link rel="icon" href="./images/images.png" />
-    <link rel="stylesheet" href="./styles.css" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Start Page</title>
+        <style>
+                body {
+                        font-family: Arial, sans-serif;
+                        background-color: #f4f4f9;
+                        padding-left: 2%;
+                        padding-right: 2%;
+                        padding-top: 1%;
+                        padding-bottom: 1%;
+                }
+
+                .container {
+                        display: grid;
+                        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+                        gap: 20px;
+                }
+
+                .box {
+                        background-color: white;
+                        border-radius: 8px;
+                        padding: 15px;
+                        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                }
+
+                .box h2 {
+                        margin-top: 0;
+                        font-size: 18px;
+                        color: #333;
+                        text-align: center;
+                }
+
+                .box ul {
+                        list-style-type: none;
+                        padding: 0;
+                }
+
+                .box ul li {
+                        margin: 10px 0;
+                        display: flex;
+                        align-items: center;
+                }
+
+                .box ul li a {
+                        text-decoration: none;
+                        color: #0073e6;
+                }
+
+                .box ul li a:hover {
+                        text-decoration: underline;
+                }
+
+                .box ul li img {
+                        width: 20px;
+                        height: 20px;
+                        margin-right: 5px;
+                }
+        </style>
 </head>
 
 <body>
-    <div class="container">
-        <h2 id="heading">Easy Digest</h2>
-        <p id="heading">A collection of various online sources frequently visited for updates.</p>
 
-        <!-- Social Media -->
-        <details>
-            <summary>
-                Social Media
-                <button onclick="openAllLinks('social-media', event)" id="btn">Open All</button>
-            </summary>
-            <ul id="social-media" class="social-links">
-                <li><a href="https://web.whatsapp.com" target="_blank">WhatsApp</a></li>
-                <li><a href="https://web.telegram.org/k" target="_blank">Telegram</a></li>
-                <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
-                <li><a href="https://www.reddit.com" target="_blank">Reddit</a></li>
-                <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
-                <li><a href="https://web.snapchat.com/" target="_blank">Snapchat</a></li>
-                <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
-                <li><a href="https://discord.com/app" target="_blank">Discord</a></li>
-                <li><a href="https://infosec.exchange" target="_blank">Mastodon</a></li>
-            </ul>
-        </details>
+        <div class="container">
+                <div class="box">
+                        <h2>Social</h2>
+                        <ul>
+                                <li><img src="https://f.start.me/www.linkedin.com" alt="LinkedIn"><a
+                                                href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+                                <li><img src="https://f.start.me/web.telegram.org" alt="Telegram"><a
+                                                href="https://web.telegram.org/k" target="_blank">Telegram</a></li>
+                                <li><img src="https://f.start.me/www.whatsapp.com" alt="Whatsapp"><a
+                                                href="https://web.whatsapp.com" target="_blank">Whatsapp</a></li>
+                                <li><img src="https://f.start.me/reddit.com" alt="Reddit"><a href="https://reddit.com"
+                                                target="_blank">Reddit</a></li>
+                                <li><img src="https://f.start.me/instagram.com" alt="Instagram"><a
+                                                href="https://instagram.com" target="_blank">Instagram</a></li>
+                                <li><img src="https://f.start.me/web.snapchat.com" alt="Snapchat"><a
+                                                href="https://web.snapchat.com" target="_blank">Snapchat</a></li>
+                                <li><img src="https://f.start.me/twitter.com" alt="Twitter"><a
+                                                href="https://twitter.com" target="_blank">Twitter</a>
+                                </li>
+                                <li><img src="https://f.start.me/discord.com" alt="Discord"><a
+                                                href="https://discord.com/app" target="_blank">Discord</a></li>
+                                <li><img src="https://f.start.me/infosec.exchange" alt=""><a
+                                                href="https://infosec.exchange/" target="_blank">Mastodon</a></li>
+                                <li><img src="https://f.start.me/in.pinterest.com" alt=""><a
+                                                href="https://in.pinterest.com/" target="_blank">Pinterest</a></li>
+                        </ul>
+                </div>
 
-        <!-- News -->
-        <details>
-            <summary>
-                Cybersecurity
-                <button onclick="openAllLinks('news', event)" id="btn">Open All</button>
-            </summary>
-            <ul id="news" class="social-links">
-                <ul>
-                    <li><a href="https://feedly.com" target="_blank">Feedly</a></li>
-                    <li><a href="https://www.securityweek.com/" target="_blank">Security Week</a></li>
-                    <li><a href="https://www.bleepingcomputer.com/" target="_blank">Bleeping Computer</a></li>
-                    <li><a href="https://thehackernews.com/" target="_blank">The Hacker News</a></li>
-                    <li><a href="https://news.sophos.com/en-us/" target="_blank">Sophos News</a></li>
-                    <li><a href="https://www.darkreading.com/" target="_blank">Dark Reading</a></li>
-                </ul>
-            </ul>
-        </details>
+                <div class="box">
+                        <h2>Blogs</h2>
+                        <ul>
+                                <li><img src="https://f.start.me/bughunters.google.com" alt="Google-logo"><a
+                                                href="https://security.googleblog.com/" target="_blank">Google online
+                                                security</a></li>
+                                <li><img src="https://www.gstatic.com/chrome-tracker/img/project-zero.svg"
+                                                alt="project-zero"><a href="https://googleprojectzero.blogspot.com"
+                                                target="_blank">Google project zero</a>
+                                </li>
+                                <li><img src="https://f.start.me/bughunters.google.com" alt="Google-logo"><a
+                                                href="https://bughunters.google.com/blog" target="_blank">Google
+                                                bughunters</a></li>
+                                <li><img src="https://f.start.me/krebsonsecurity.com/" alt="krebs-logo"><a
+                                                href="https://krebsonsecurity.com/" target="_blank">Krebs on
+                                                security</a></li>
+                        </ul>
+                </div>
 
-        <!-- Hardware -->
-        <details>
-            <summary>
-                Hardware
-                <button onclick="openAllLinks('hardware', event)" id="btn">Open All</button>
-            </summary>
-            <ul id="hardware"  class="social-links">
-                <li><a href="https://www.notebookcheck.net/" target="_blank">Notebookcheck</a></li>
-                <li><a href="https://www.anandtech.com/" target="_blank">AnandTech</a></li>
-                <li><a href="https://hackaday.io/discover" target="_blank">Hackaday.io</a></li>
-                <li><a href="https://hackaday.com/" target="_blank">Hackaday.com</a></li>
-                <li><a href="https://www.instructables.com/projects" target="_blank">Instructables</a></li>
-                <li><a href="https://www.hackster.io/" target="_blank">Hackster</a></li>
-                <li><a href="https://www.printables.com/" target="_blank">Printables</a></li>
-                <li><a href="https://www.thingiverse.com/" target="_blank">Thingiverse</a></li>
-            </ul>
-        </details>
+                <div class="box">
+                        <h2>Infosec</h2>
+                        <ul>
+                                <li><img src="https://f.start.me/www.securityweek.com" alt="logo"><a
+                                                href="https://www.securityweek.com/" target="_blank">Security week</a>
+                                </li>
+                                <li><img src="https://f.start.me/bleepingcomputer.com" alt="logo"><a
+                                                href="https://www.bleepingcomputer.com/" target="_blank">Bleeping
+                                                computer</a></li>
+                                <li><img src="https://f.start.me/thehackernews.com" alt="logo"><a
+                                                href="https://thehackernews.com/" target="_blank">The
+                                                hacker news</a></li>
+                                <li><img src="https://f.start.me/darkreading.com" alt="logo"><a
+                                                href="https://www.darkreading.com/" target="_blank">Dark
+                                                reading</a></li>
+                        </ul>
+                </div>
 
-        <!-- Guides -->
-        <details>
-            <summary>
-                Guides
-                <button onclick="openAllLinks('guides', event)" id="btn">Open All</button>
-            </summary>
-            <ul id="guides"  class="social-links">
-                <li><a href="https://madaidans-insecurities.github.io/" target="_blank">Madaidan's Insecurities</a></li>
-                <li><a href="https://anonymousplanet.org/" target="_blank">The Hitchhiker's Guide to Online
-                        Anonymity</a></li>
-            </ul>
-        </details>
+                <div class="box">
+                        <h2>Science</h2>
+                        <ul>
+                                <li><img src="https://f.start.me/phys.org" alt="logo"><a href="https://phys.org/"
+                                                target="_blank">Phys</a></li>
+                                <li><img src="https://f.start.me/medicalxpress.com" alt="logo"><a
+                                                href="https://medicalxpress.com/" target="_blank">Medical xpress</a>
+                                </li>
+                                <li><img src="https://f.start.me/newscientist.com" alt="logo"><a
+                                                href="https://newscientist.com/" target="_blank">New
+                                                scientist</a></li>
+                                <li><img src="https://f.start.me/sciencealert.com" alt="logo"><a
+                                                href="https://sciencealert.com" target="_blank">Science
+                                                alert</a></li>
+                        </ul>
+                </div>
 
-        <!-- Blogs -->
-        <details>
-            <summary>
-                Blogs
-                <button onclick="openAllLinks('blogs', event)" id="btn">Open All</button>
-            </summary>
-            <ul id="blogs" class="social-links">
-                <li><a href="https://officercia.mirror.xyz/" target="_blank">Officer's Blog</a></li>
-                <li><a href="https://googleprojectzero.blogspot.com/" target="_blank">Google Project Zero Blog</a></li>
-                <li><a href="https://krebsonsecurity.com/" target="_blank">Krebs on Security</a></li>
-                <li><a href="https://bughunters.google.com/blog" target="_blank">Google Bughunters Blog</a></li>
-            </ul>
-        </details>
+                <div class="box">
+                        <h2>Hardware</h2>
+                        <ul>
+                                <li><img src="https://f.start.me/notebookcheck.net" alt=""><a
+                                                href="https://www.notebookcheck.net/" target="_blank">Notebookcheck</a>
+                                </li>
+                                <li><img src="https://f.start.me/anandtech.com" alt=""><a href="https://anandtech.com/"
+                                                target="_blank">Anandtech</a>
+                                </li>
+                        </ul>
+                </div>
 
-        <!-- Science -->
-        <details>
-            <summary>
-                Science
-                <button onclick="openAllLinks('science', event)" id="btn">Open All</button>
-            </summary>
-            <ul id="science" class="social-links">
-                <li><a href="https://phys.org/" target="_blank">Phys.org</a></li>
-                <li><a href="https://medicalxpress.com/" target="_blank">Medical Xpress</a></li>
-                <li><a href="https://www.newscientist.com/" target="_blank">New Scientist</a></li>
-                <li><a href="https://www.sciencealert.com/" target="_blank">ScienceAlert</a></li>
-            </ul>
-        </details>
+                <div class="box">
+                        <h2>Tech News</h2>
+                        <ul>
+                                <li><img src="https://f.start.me/theverge.com" alt=""><a href="https://www.theverge.com"
+                                                target="_blank">Verge</a></li>
+                                <li><img src="https://f.start.me/techcrunch.com" alt=""><a href="https://techcrunch.com"
+                                                target="_blank">Techcrunch</a>
+                                </li>
+                                <li><img src="https://f.start.me/technologyreview.com" alt=""><a
+                                                href="https://www.technologyreview.com/" target="_blank">MIT Tech</a>
+                                </li>
+                                <li><img src="https://f.start.me/spectrum.ieee.org" alt=""><a
+                                                href="https://spectrum.ieee.org/" target="_blank">IEEE
+                                                Spectrum</a></li>
+                                <li><img src="https://f.start.me/techxplore.com" alt=""><a
+                                                href="https://techxplore.com/" target="_blank">Tech
+                                                xplore</a></li>
+                                <li><img src="https://f.start.me/lwn.net" alt=""><a href="https://lwn.net/"
+                                                target="_blank">LWN</a></li>
+                                <li><img src="https://f.start.me/torrentfreak.com" alt=""><a
+                                                href="https://torrentfreak.com/" target="_blank">Torrentfreaks</a></li>
+                                <li><img src="https://f.start.me/news.ycombinator.com" alt=""><a
+                                                href="https://news.ycombinator.com/" target="_blank">HN</a></li>
+                                <li><img src="https://f.start.me/theregister.com" alt=""><a
+                                                href="https://www.theregister.com/" target="_blank">The
+                                                Reegister</a></li>
+                                <li><img src="https://f.start.me/hackernoon.com" alt=""><a
+                                                href="https://hackernoon.com/" target="_blank">Hacker
+                                                noon</a></li>
+                                <li><img src="https://f.start.me/freethink.com" alt=""><a
+                                                href="https://www.freethink.com/" target="_blank">Freethink</a></li>
+                                <li><img src="https://f.start.me/phoronix.com" alt=""><a
+                                                href="https://www.phoronix.com/" target="_blank">Phoronix</a>
+                                </li>
+                        </ul>
+                </div>
 
-        <!-- National/International News -->
-        <details>
-            <summary>
-                News
-                <button onclick="openAllLinks('national-news', event)" id="btn">Open All</button>
-            </summary>
-            <ul id="national-news" class="social-links"> 
-                <li><a href="https://www.reuters.com/" target="_blank">Reuters</a></li>
-                <li><a href="https://news.google.com" target="_blank">Google News</a></li>
-                <li><a href="https://www.vice.com/" target="_blank">Vice</a></li>
-            </ul>
-        </details>
+                <div class="box">
+                        <h2>DIY</h2>
+                        <ul>
+                                <li><img src="https://f.start.me/hackaday.io" alt=""><a
+                                                href="https://hackaday.io/discover" target="_blank">Hackadayio</a></li>
+                                <li><img src="https://f.start.me/hackaday.com" alt=""><a href="https://hackaday.com/"
+                                                target="_blank">Hackaday</a></li>
+                                <li><img src="https://f.start.me/instructables.com" alt=""><a
+                                                href="https://www.instructables.com/projects"
+                                                target="_blank">Instructables</a></li>
+                                <li><img src="https://f.start.me/hackster.io" alt=""><a href="https://www.hackster.io/"
+                                                target="_blank">Hackster</a>
+                                </li>
+                                <li><img src="https://f.start.me/printables.com" alt=""><a
+                                                href="https://www.printables.com/" target="_blank">printables</a></li>
+                                <li><img src="https://f.start.me/thingiverse.com" alt=""><a
+                                                href="https://www.thingiverse.com/" target="_blank">Thingyverse</a></li>
+                        </ul>
+                </div>
 
-        <!-- Technology -->
-        <details>
-            <summary>
-                Technology
-                <button onclick="openAllLinks('technology', event)" id="btn">Open All</button>
-            </summary>
-            <ul id="technology" class="social-links">
-                <li><a href="https://www.theverge.com/" target="_blank">The Verge</a></li>
-                <li><a href="https://techcrunch.com/" target="_blank">TechCrunch</a></li>
-                <li><a href="https://www.technologyreview.com/" target="_blank">MIT Tech Review</a></li>
-                <li><a href="https://spectrum.ieee.org/" target="_blank">IEEE Spectrum</a></li>
-                <li><a href="https://techxplore.com/" target="_blank">TechXplore</a></li>
-                <li><a href="https://lwn.net/" target="_blank">LWN</a></li>
-                <li><a href="https://torrentfreak.com/" target="_blank">TorrentFreak</a></li>
-                <li><a href="https://news.ycombinator.com/" target="_blank">Hacker News</a></li>
-                <li><a href="https://www.theregister.com/" target="_blank">The Register</a></li>
-                <li><a href="https://hackernoon.com/" target="_blank">Hackernoon</a></li>
-                <li><a href="https://www.freethink.com/" target="_blank">Freethink</a></li>
-            </ul>
-        </details>
+                <div class="box">
+                        <h2>Tech news</h2>
+                        <ul>
+                                <li><img src="https://f.start.me/reuters.com" alt=""><a href="https://reuters.com"
+                                                target="_blank">Reuters</a></li>
+                                <li><img src="https://f.start.me/vice.com" alt=""><a href="https://vice.com"
+                                                target="_blank">Vice</a>
+                                </li>
+                                <li><img src="https://f.start.me/indianexpress.com" alt=""><a
+                                                href="https://indianexpress.com" target="_blank">Indian
+                                                Express</a></li>
+                                <li><img src="https://f.start.me/theprint.in" alt=""><a href="https://theprint.in/"
+                                                target="_blank">The
+                                                print</a></li>
+                        </ul>
+                </div>
 
-        <!-- Miscellaneous -->
-        <details>
-            <summary>
-                Miscellaneous
-                <button onclick="openAllLinks('miscellaneous', event)" id="btn">Open All</button>
-            </summary>
-            <ul id="miscellaneous" class="social-links">
-                <li><a href="https://archlinux.org/" target="_blank">Arch Linux</a></li>
-                <li><a href="https://www.gentoo.org/" target="_blank">Gentoo</a></li>
-                <li><a href="https://www.phoronix.com/" target="_blank">Phoronix</a></li>
-                <li><a href="https://github.com/trending" target="_blank">GitHub Trending Repos</a></li>
-                <li><a href="https://www.producthunt.com/" target="_blank">Product Hunt</a></li>
-            </ul>
-        </details>
-    </div>
-    <script src="./scripts.js"></script>
+                <div class="box">
+                        <h2>Aggregator</h2>
+                        <ul>
+                                <li><img src="https://f.start.me/news.google.com" alt=""><a
+                                                href="https://news.google.com" target="_blank">Google
+                                                News</a></li>
+                                <li><img src="https://f.start.me/feedly.com" alt=""><a href="https://feedly.com"
+                                                target="_blank">Feedly</a></li>
+                                <li><img src="https://f.start.me/producthunt.com" alt=""><a
+                                                href="https://producthunt.com" target="_blank">Product
+                                                Hunt</a></li>
+                        </ul>
+                </div>
+
+                <div class="box">
+                        <h2>Shopping</h2>
+                        <ul>
+                                <li><img src="https://f.start.me/amazon.in" alt=""><a href="https://amazon.in"
+                                                target="_blank">Amazon</a></li>
+                                <li><img src="https://f.start.me/flipkart.com" alt=""><a href="https://flipkart.com"
+                                                target="_blank">Flipkart</a></li>
+                                <li><img src="https://f.start.me/myntra.com" alt=""><a href="https://myntra.com"
+                                                target="_blank">Myntra</a></li>
+                                <li><img src="https://f.start.me/paytmmall.com" alt=""><a href="https://paytmmall.com"
+                                                target="_blank">Paytmmall</a>
+                                </li>
+                                <li><img src="https://f.start.me/swiggy.com" alt=""><a
+                                                href="https://www.swiggy.com/instamart" target="_blank">Instamart</a>
+                                </li>
+                                <li><img src="https://f.start.me/blinkit.com" alt=""><a href="https://blinkit.com"
+                                                target="_blank">Blinkit</a></li>
+                                <li><img src="https://f.start.me/zeptonow.com" alt=""><a
+                                                href="https://www.zeptonow.com/" target="_blank">Zepto</a></li>
+                                <li><img src="https://f.start.me/jiomart.com" alt=""><a href="https://www.jiomart.com/"
+                                                target="_blank">Jiomart</a></li>
+                                <li><img src="https://f.start.me/dmart.in" alt=""><a href="https://www.dmart.in/"
+                                                target="_blank">Dmart</a></li>
+                                <li><img src="https://f.start.me/bigbasket.com" alt=""><a href="https://bigbasket.com"
+                                                target="_blank">Bigbasket</a></li>
+                        </ul>
+                </div>
+        </div>
+
 </body>
 
 </html>
