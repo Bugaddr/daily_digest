@@ -2,280 +2,298 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Easy digest</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #ffc895;
-            margin: 0;
-            padding: 20px;
-            box-sizing: border-box;
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Easy digest</title>
+        <style>
+                body {
+                        font-family: Arial, sans-serif;
+                        background-color: #ffc895;
+                        margin: 0;
+                        padding: 20px;
+                        box-sizing: border-box;
+                        min-height: 100vh;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                }
 
-        .container {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 20px;
-            max-width: 1800px;
-            width: 100%;
-        }
+                .container {
+                        display: grid;
+                        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+                        gap: 20px;
+                        max-width: 1800px;
+                        width: 100%;
+                }
 
-        .box {
-            background-color: white;
-            border-radius: 8px;
-            padding: 15px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            display: flex;
-            flex-direction: column;
-        }
+                .box {
+                        background-color: white;
+                        border-radius: 8px;
+                        padding: 15px;
+                        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                        display: flex;
+                        flex-direction: column;
+                }
 
-        .box h2 {
-            margin-top: 0;
-            font-size: 18px;
-            color: #333;
-            text-align: center;
-            border-bottom: 1px solid #eee;
-            padding-bottom: 10px;
-            margin-bottom: 10px;
-        }
+                .box h2 {
+                        margin-top: 0;
+                        font-size: 18px;
+                        color: #333;
+                        text-align: center;
+                        border-bottom: 1px solid #eee;
+                        padding-bottom: 10px;
+                        margin-bottom: 10px;
+                }
 
-        .box ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-            gap: 10px;
-        }
+                .box ul {
+                        list-style-type: none;
+                        padding: 0;
+                        margin: 0;
+                        display: grid;
+                        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+                        gap: 10px;
+                }
 
-        .box ul li {
-            display: flex;
-            align-items: center;
-        }
+                .box ul li {
+                        display: flex;
+                        align-items: center;
+                }
 
-        .box ul li a {
-            text-decoration: none;
-            color: #0073e6;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            display: block;
-            padding: 5px;
-            transition: all 0.2s ease;
-            border-radius: 4px;
-            flex-grow: 1;
-        }
+                .box ul li a {
+                        text-decoration: none;
+                        color: #0073e6;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        display: block;
+                        padding: 5px;
+                        transition: all 0.2s ease;
+                        border-radius: 4px;
+                        flex-grow: 1;
+                }
 
-        .box ul li a:hover {
-            background-color: #f0f7ff;
-            text-decoration: underline;
-        }
+                .box ul li a:hover {
+                        background-color: #f0f7ff;
+                        text-decoration: underline;
+                }
 
-        .box ul li img {
-            width: 20px;
-            height: 20px;
-            margin-right: 5px;
-            flex-shrink: 0;
-        }
+                .box ul li img {
+                        width: 20px;
+                        height: 20px;
+                        margin-right: 5px;
+                        flex-shrink: 0;
+                }
 
-        /* Responsive adjustments */
-        @media (max-width: 768px) {
-            .container {
-                grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-            }
+                /* Responsive adjustments */
+                @media (max-width: 768px) {
+                        .container {
+                                grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+                        }
 
-            .box ul {
-                grid-template-columns: 1fr;
-            }
-        }
+                        .box ul {
+                                grid-template-columns: 1fr;
+                        }
+                }
 
-        @media (min-width: 2000px) {
-            .container {
-                grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-            }
-        }
-    </style>
+                @media (min-width: 2000px) {
+                        .container {
+                                grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+                        }
+                }
+        </style>
 </head>
 
 <body>
 
-    <div class="container">
-        <div class="box">
-            <h2>Social</h2>
-            <ul>
-                <li><img src="assets/logo/www.linkedin.webp" alt=""><a href="https://linkedin.com"
-                        target="_blank">LinkedIn</a></li>
-                <li><img src="assets/logo/web.telegram.webp" alt=""><a href="https://web.telegram.org/k"
-                        target="_blank">Telegram</a></li>
-                <li><img src="assets/logo/www.whatsapp.webp" alt=""><a href="https://web.whatsapp.com"
-                        target="_blank">Whatsapp</a></li>
-                <li><img src="assets/logo/reddit.webp" alt=""><a href="https://reddit.com"
-                        target="_blank">Reddit</a></li>
-                <li><img src="assets/logo/instagram.webp" alt=""><a href="https://instagram.com"
-                        target="_blank">Instagram</a></li>
-                <li><img src="assets/logo/web.snapchat.webp" alt=""><a href="https://web.snapchat.com"
-                        target="_blank">Snapchat</a></li>
-                <li><img src="assets/logo/twitter.webp" alt=""><a href="https://twitter.com"
-                        target="_blank">X</a></li>
-                <li><img src="assets/logo/discord.webp" alt=""><a href="https://discord.com/app"
-                        target="_blank">Discord</a></li>
-                <li><img src="assets/logo/infosec.webp" alt=""><a href="https://infosec.exchange/"
-                        target="_blank">Mastodon</a></li>
-                <li><img src="assets/logo/in.pinterest.webp" alt=""><a href="https://in.pinterest.com/"
-                        target="_blank">Pinterest</a></li>
-            </ul>
+        <div class="container">
+                <div class="box">
+                        <h2>Social</h2>
+                        <ul>
+                                <li><img src="assets/logo/www.linkedin.webp" alt=""><a href="https://linkedin.com"
+                                                target="_blank">LinkedIn</a></li>
+                                <li><img src="assets/logo/web.telegram.webp" alt=""><a href="https://web.telegram.org/k"
+                                                target="_blank">Telegram</a></li>
+                                <li><img src="assets/logo/www.whatsapp.webp" alt=""><a href="https://web.whatsapp.com"
+                                                target="_blank">Whatsapp</a></li>
+                                <li><img src="assets/logo/reddit.webp" alt=""><a href="https://reddit.com"
+                                                target="_blank">Reddit</a></li>
+                                <li><img src="assets/logo/instagram.webp" alt=""><a href="https://instagram.com"
+                                                target="_blank">Instagram</a></li>
+                                <li><img src="assets/logo/web.snapchat.webp" alt=""><a href="https://web.snapchat.com"
+                                                target="_blank">Snapchat</a></li>
+                                <li><img src="assets/logo/twitter.webp" alt=""><a href="https://twitter.com"
+                                                target="_blank">X</a></li>
+                                <li><img src="assets/logo/discord.webp" alt=""><a href="https://discord.com/app"
+                                                target="_blank">Discord</a></li>
+                                <li><img src="assets/logo/infosec.webp" alt=""><a href="https://infosec.exchange/"
+                                                target="_blank">Mastodon</a></li>
+                                <li><img src="assets/logo/in.pinterest.webp" alt=""><a href="https://in.pinterest.com/"
+                                                target="_blank">Pinterest</a></li>
+                        </ul>
+                </div>
+                <div class="box">
+                        <h2>Blogs</h2>
+                        <ul>
+                                <li><img src="assets/logo/bughunters.google.webp" alt=""><a
+                                                href="https://security.googleblog.com/" target="_blank">Security</a>
+                                </li>
+                                <li><img src="assets/logo/project-zero.webp" alt=""><a
+                                                href="https://googleprojectzero.blogspot.com" target="_blank">Project
+                                                0</a></li>
+                                <li><img src="assets/logo/bughunters.google.webp" alt=""><a
+                                                href="https://bughunters.google.com/blog" target="_blank">Bughunters</a>
+                                </li>
+                                <li><img src="assets/logo/krebsonsecurity.webp/" alt=""><a
+                                                href="https://krebsonsecurity.com/" target="_blank">Krebs</a></li>
+                        </ul>
+                </div>
+                <div class="box">
+                        <h2>Infosec</h2>
+                        <ul>
+                                <li><img src="assets/logo/www.securityweek.webp" alt=""><a
+                                                href="https://www.securityweek.com/" target="_blank">Security week</a>
+                                </li>
+                                <li><img src="assets/logo/bleepingcomputer.webp" alt=""><a
+                                                href="https://www.bleepingcomputer.com/" target="_blank">Bleeping</a>
+                                </li>
+                                <li><img src="assets/logo/thehackernews.webp" alt=""><a
+                                                href="https://thehackernews.com/" target="_blank">Hackernews</a></li>
+                                <li><img src="assets/logo/darkreading.webp" alt=""><a
+                                                href="https://www.darkreading.com/" target="_blank">Darkreading</a></li>
+                        </ul>
+                </div>
+                <div class="box">
+                        <h2>Science</h2>
+                        <ul>
+                                <li><img src="assets/logo/phys.webp" alt=""><a href="https://phys.org/"
+                                                target="_blank">Phys</a></li>
+                                <li><img src="assets/logo/medicalxpress.webp" alt=""><a
+                                                href="https://medicalxpress.com/" target="_blank">Medxpress</a></li>
+                                <li><img src="assets/logo/newscientist.webp" alt=""><a href="https://newscientist.com/"
+                                                target="_blank">Newscientist</a></li>
+                                <li><img src="assets/logo/sciencealert.webp" alt=""><a href="https://sciencealert.com"
+                                                target="_blank">Sciencealert</a></li>
+                        </ul>
+                </div>
+                <div class="box">
+                        <h2>Hardware</h2>
+                        <ul>
+                                <li><img src="assets/logo/notebookcheck.webp" alt=""><a
+                                                href="https://www.notebookcheck.net/" target="_blank">NB Check</a></li>
+                                <li><img src="assets/logo/anandtech.webp" alt=""><a href="https://anandtech.com/"
+                                                target="_blank">Anandtech</a></li>
+                        </ul>
+                </div>
+                <div class="box">
+                        <h2>News</h2>
+                        <ul>
+                                <li><img src="assets/logo/news.ycombinator.webp" alt=""><a
+                                                href="https://news.ycombinator.com/" target="_blank">HN</a></li>
+                                <li><img src="assets/logo/theverge.webp" alt=""><a href="https://www.theverge.com"
+                                                target="_blank">Verge</a></li>
+                                <li><img src="assets/logo/techcrunch.webp" alt=""><a href="https://techcrunch.com"
+                                                target="_blank">Techcrunch</a></li>
+                                <li><img src="assets/logo/technologyreview.webp" alt=""><a
+                                                href="https://www.technologyreview.com/" target="_blank">MIT Tech</a>
+                                </li>
+                                <li><img src="assets/logo/spectrum.ieee.webp" alt=""><a
+                                                href="https://spectrum.ieee.org/" target="_blank">IEEE S</a></li>
+                                <li><img src="assets/logo/techxplore.webp" alt=""><a href="https://techxplore.com/"
+                                                target="_blank">Techxplore</a></li>
+                                <li><img src="assets/logo/lwn.webp" alt=""><a href="https://lwn.net/"
+                                                target="_blank">LWN</a></li>
+                                <li><img src="assets/logo/torrentfreak.webp" alt=""><a href="https://torrentfreak.com/"
+                                                target="_blank">Torrentfreaks</a></li>
+                                <li><img src="assets/logo/theregister.webp" alt=""><a
+                                                href="https://www.theregister.com/" target="_blank">The Register</a>
+                                </li>
+                                <li><img src="assets/logo/hackernoon.webp" alt=""><a href="https://hackernoon.com/"
+                                                target="_blank">Hackernoon</a></li>
+                                <li><img src="assets/logo/freethink.webp" alt=""><a href="https://www.freethink.com/"
+                                                target="_blank">Freethink</a></li>
+                                <li><img src="assets/logo/phoronix.webp" alt=""><a href="https://www.phoronix.com/"
+                                                target="_blank">Phoronix</a></li>
+                                <li><img src="assets/logo/reuters.webp" alt=""><a href="https://reuters.com"
+                                                target="_blank">Reuters</a></li>
+                                <li><img src="assets/logo/vice.webp" alt=""><a href="https://vice.com"
+                                                target="_blank">Vice</a>
+                                </li>
+                                <li><img src="assets/logo/indianexpress.webp" alt=""><a href="https://indianexpress.com"
+                                                target="_blank">IE</a></li>
+                                <li><img src="assets/logo/theprint.webp" alt=""><a href="https://theprint.in/"
+                                                target="_blank">Theprint</a></li>
+                        </ul>
+                </div>
+                <div class="box">
+                        <h2>DIY</h2>
+                        <ul>
+                                <li><img src="assets/logo/hackaday.webp" alt=""><a href="https://hackaday.io/discover"
+                                                target="_blank">Hackaday/io</a></li>
+                                <li><img src="assets/logo/hackaday.webp" alt=""><a href="https://hackaday.com/"
+                                                target="_blank">Hackaday</a></li>
+                                <li><img src="assets/logo/instructables.webp" alt=""><a
+                                                href="https://www.instructables.com/projects"
+                                                target="_blank">Instructables</a></li>
+                                <li><img src="assets/logo/hackster.webp" alt=""><a href="https://www.hackster.io/"
+                                                target="_blank">Hackster</a></li>
+                                <li><img src="assets/logo/printables.webp" alt=""><a href="https://www.printables.com/"
+                                                target="_blank">Printables</a></li>
+                                <li><img src="assets/logo/thingiverse.webp" alt=""><a
+                                                href="https://www.thingiverse.com/" target="_blank">Thingiverse</a></li>
+                        </ul>
+                </div>
+                <div class="box">
+                        <h2>Aggregator</h2>
+                        <ul>
+                                <li><img src="assets/logo/news.google.webp" alt=""><a href="https://news.google.com"
+                                                target="_blank">Google News</a></li>
+                                <li><img src="assets/logo/feedly.webp" alt=""><a href="https://feedly.com"
+                                                target="_blank">Feedly</a></li>
+                                <li><img src="assets/logo/producthunt.webp" alt=""><a href="https://producthunt.com"
+                                                target="_blank">Producthunt</a></li>
+                        </ul>
+                </div>
+                <div class="box">
+                        <h2>Shopping</h2>
+                        <ul>
+                                <li><img src="assets/logo/amazon.webp" alt=""><a href="https://amazon.in"
+                                                target="_blank">Amazon</a></li>
+                                <li><img src="assets/logo/flipkart.webp" alt=""><a href="https://flipkart.com"
+                                                target="_blank">Flipkart</a></li>
+                                <li><img src="assets/logo/myntra.webp" alt=""><a href="https://myntra.com"
+                                                target="_blank">Myntra</a></li>
+                                <li><img src="assets/logo/paytmmall.webp" alt=""><a href="https://paytmmall.com"
+                                                target="_blank">Paytm mall</a></li>
+                                <li><img src="assets/logo/swiggy.webp" alt=""><a href="https://www.swiggy.com/instamart"
+                                                target="_blank">Instamart</a></li>
+                                <li><img src="assets/logo/blinkit.webp" alt=""><a href="https://blinkit.com"
+                                                target="_blank">Blinkit</a></li>
+                                <li><img src="assets/logo/zeptonow.webp" alt=""><a href="https://www.zeptonow.com/"
+                                                target="_blank">Zepto</a></li>
+                                <li><img src="assets/logo/jiomart.webp" alt=""><a href="https://www.jiomart.com/"
+                                                target="_blank">Jiomart</a></li>
+                                <li><img src="assets/logo/dmart.webp" alt=""><a href="https://www.dmart.in/"
+                                                target="_blank">Dmart</a></li>
+                                <li><img src="assets/logo/bigbasket.webp" alt=""><a href="https://bigbasket.com"
+                                                target="_blank">Bigbasket</a></li>
+                        </ul>
+                </div>
+                <div class="box">
+                        <h2>Misc</h2>
+                        <ul>
+                                <li><img src="assets/logo/finance.google.webp" alt=""><a
+                                                href="https://finance.google.com" target="_blank">Finance</a></li>
+                                <li><img src="assets/logo/pentester.land.webp" alt=""><a
+                                                href="https://pentester.land/writeups/" target="_blank">Pentestlab</a>
+                                </li>
+                                <li><img src="assets/logo/hackerone.webp" alt=""><a
+                                                href="https://hackerone.com/hacktivity/overview" target="_blank">H1
+                                                hacktivity</a></li>
+                                <li><img src="assets/logo/ctftime.webp" alt=""><a href="https://ctftime.org/writeups"
+                                                target="_blank">CTFT</a></li>
+                        </ul>
+                </div>
         </div>
-        <div class="box">
-            <h2>Blogs</h2>
-            <ul>
-                <li><img src="assets/logo/bughunters.google.webp" alt=""><a
-                        href="https://security.googleblog.com/" target="_blank">Security</a></li>
-                <li><img src="assets/logo/project-zero.webp" alt=""><a
-                        href="https://googleprojectzero.blogspot.com" target="_blank">Project 0</a></li>
-                <li><img src="assets/logo/bughunters.google.webp" alt=""><a
-                        href="https://bughunters.google.com/blog" target="_blank">Bughunters</a></li>
-                <li><img src="assets/logo/krebsonsecurity.webp/" alt=""><a href="https://krebsonsecurity.com/"
-                        target="_blank">Krebs</a></li>
-            </ul>
-        </div>
-        <div class="box">
-            <h2>Infosec</h2>
-            <ul>
-                <li><img src="assets/logo/www.securityweek.webp" alt=""><a
-                        href="https://www.securityweek.com/" target="_blank">Security week</a></li>
-                <li><img src="assets/logo/bleepingcomputer.webp" alt=""><a
-                        href="https://www.bleepingcomputer.com/" target="_blank">Bleeping</a></li>
-                <li><img src="assets/logo/thehackernews.webp" alt=""><a href="https://thehackernews.com/"
-                        target="_blank">Hackernews</a></li>
-                <li><img src="assets/logo/darkreading.webp" alt=""><a href="https://www.darkreading.com/"
-                        target="_blank">Darkreading</a></li>
-            </ul>
-        </div>
-        <div class="box">
-            <h2>Science</h2>
-            <ul>
-                <li><img src="assets/logo/phys.webp" alt=""><a href="https://phys.org/"
-                        target="_blank">Phys</a></li>
-                <li><img src="assets/logo/medicalxpress.webp" alt=""><a href="https://medicalxpress.com/"
-                        target="_blank">Medxpress</a></li>
-                <li><img src="assets/logo/newscientist.webp" alt=""><a href="https://newscientist.com/"
-                        target="_blank">Newscientist</a></li>
-                <li><img src="assets/logo/sciencealert.webp" alt=""><a href="https://sciencealert.com"
-                        target="_blank">Sciencealert</a></li>
-            </ul>
-        </div>
-        <div class="box">
-            <h2>Hardware</h2>
-            <ul>
-                <li><img src="assets/logo/notebookcheck.webp" alt=""><a href="https://www.notebookcheck.net/"
-                        target="_blank">NB Check</a></li>
-                <li><img src="assets/logo/anandtech.webp" alt=""><a href="https://anandtech.com/"
-                        target="_blank">Anandtech</a></li>
-            </ul>
-        </div>
-        <div class="box">
-            <h2>News</h2>
-            <ul>
-                <li><img src="assets/logo/news.ycombinator.webp" alt=""><a href="https://news.ycombinator.com/"
-                        target="_blank">HN</a></li>
-                <li><img src="assets/logo/theverge.webp" alt=""><a href="https://www.theverge.com"
-                        target="_blank">Verge</a></li>
-                <li><img src="assets/logo/techcrunch.webp" alt=""><a href="https://techcrunch.com"
-                        target="_blank">Techcrunch</a></li>
-                <li><img src="assets/logo/technologyreview.webp" alt=""><a
-                        href="https://www.technologyreview.com/" target="_blank">MIT Tech</a></li>
-                <li><img src="assets/logo/spectrum.ieee.webp" alt=""><a href="https://spectrum.ieee.org/"
-                        target="_blank">IEEE S</a></li>
-                <li><img src="assets/logo/techxplore.webp" alt=""><a href="https://techxplore.com/"
-                        target="_blank">Techxplore</a></li>
-                <li><img src="assets/logo/lwn.webp" alt=""><a href="https://lwn.net/" target="_blank">LWN</a></li>
-                <li><img src="assets/logo/torrentfreak.webp" alt=""><a href="https://torrentfreak.com/"
-                        target="_blank">Torrentfreaks</a></li>
-                <li><img src="assets/logo/theregister.webp" alt=""><a href="https://www.theregister.com/"
-                        target="_blank">The Register</a></li>
-                <li><img src="assets/logo/hackernoon.webp" alt=""><a href="https://hackernoon.com/"
-                        target="_blank">Hackernoon</a></li>
-                <li><img src="assets/logo/freethink.webp" alt=""><a href="https://www.freethink.com/"
-                        target="_blank">Freethink</a></li>
-                <li><img src="assets/logo/phoronix.webp" alt=""><a href="https://www.phoronix.com/"
-                        target="_blank">Phoronix</a></li>
-                <li><img src="assets/logo/reuters.webp" alt=""><a href="https://reuters.com"
-                        target="_blank">Reuters</a></li>
-                <li><img src="assets/logo/vice.webp" alt=""><a href="https://vice.com" target="_blank">Vice</a>
-                </li>
-                <li><img src="assets/logo/indianexpress.webp" alt=""><a href="https://indianexpress.com"
-                        target="_blank">IE</a></li>
-                <li><img src="assets/logo/theprint.webp" alt=""><a href="https://theprint.in/"
-                        target="_blank">Theprint</a></li>
-            </ul>
-        </div>
-        <div class="box">
-            <h2>DIY</h2>
-            <ul>
-                <li><img src="assets/logo/hackaday.webp" alt=""><a href="https://hackaday.io/discover"
-                        target="_blank">Hackadayio</a></li>
-                <li><img src="assets/logo/hackaday.webp" alt=""><a href="https://hackaday.com/"
-                        target="_blank">Hackaday</a></li>
-                <li><img src="assets/logo/instructables.webp" alt=""><a
-                        href="https://www.instructables.com/projects" target="_blank">Instructables</a></li>
-                <li><img src="assets/logo/hackster.webp" alt=""><a href="https://www.hackster.io/"
-                        target="_blank">Hackster</a></li>
-                <li><img src="assets/logo/printables.webp" alt=""><a href="https://www.printables.com/"
-                        target="_blank">printables</a></li>
-                <li><img src="assets/logo/thingiverse.webp" alt=""><a href="https://www.thingiverse.com/"
-                        target="_blank">Thingiverse</a></li>
-            </ul>
-        </div>
-        <div class="box">
-            <h2>Aggregator</h2>
-            <ul>
-                <li><img src="assets/logo/news.google.webp" alt=""><a href="https://news.google.com"
-                        target="_blank">Google News</a></li>
-                <li><img src="assets/logo/feedly.webp" alt=""><a href="https://feedly.com"
-                        target="_blank">Feedly</a></li>
-                <li><img src="assets/logo/producthunt.webp" alt=""><a href="https://producthunt.com"
-                        target="_blank">Producthunt</a></li>
-            </ul>
-        </div>
-        <div class="box">
-            <h2>Shopping</h2>
-            <ul>
-                <li><img src="assets/logo/amazon.webp" alt=""><a href="https://amazon.in"
-                        target="_blank">Amazon</a></li>
-                <li><img src="assets/logo/flipkart.webp" alt=""><a href="https://flipkart.com"
-                        target="_blank">Flipkart</a></li>
-                <li><img src="assets/logo/myntra.webp" alt=""><a href="https://myntra.com"
-                        target="_blank">Myntra</a></li>
-                <li><img src="assets/logo/paytmmall.webp" alt=""><a href="https://paytmmall.com"
-                        target="_blank">Paytmmall</a></li>
-                <li><img src="assets/logo/swiggy.webp" alt=""><a href="https://www.swiggy.com/instamart"
-                        target="_blank">Instamart</a></li>
-                <li><img src="assets/logo/blinkit.webp" alt=""><a href="https://blinkit.com"
-                        target="_blank">Blinkit</a></li>
-                <li><img src="assets/logo/zeptonow.webp" alt=""><a href="https://www.zeptonow.com/"
-                        target="_blank">Zepto</a></li>
-                <li><img src="assets/logo/jiomart.webp" alt=""><a href="https://www.jiomart.com/"
-                        target="_blank">Jiomart</a></li>
-                <li><img src="assets/logo/dmart.webp" alt=""><a href="https://www.dmart.in/"
-                        target="_blank">Dmart</a></li>
-                <li><img src="assets/logo/bigbasket.webp" alt=""><a href="https://bigbasket.com"
-                        target="_blank">Bigbasket</a></li>
-            </ul>
-        </div>
-        <div class="box">
-            <h2>Misc</h2>
-            <ul>
-                <li><img src="assets/logo/finance.google.webp" alt=""><a href="https://finance.google.com"
-                        target="_blank">Finance</a></li>
-            </ul>
-        </div>
-    </div>
 </body>
 
 </html>
